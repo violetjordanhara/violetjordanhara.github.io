@@ -21,18 +21,31 @@
 				display: table;
 			}
 			
+			
 			#titlethingy
 			{
 				float: left;
 				
-				width: 28%;
+				width: 50%;
 			}
 			
 			#biothingy
 			{
 				float: left;
 				
-				width: 50%;
+				width: 28%;
+			}
+			
+			@media only screen and (max-width: 768px)
+			{
+				#titlethingy
+				{
+					width: 100%;
+				}
+				#biothingy
+				{
+					width: 75%;
+				}
 			}
 		</style>
 
