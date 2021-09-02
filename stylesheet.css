@@ -2,6 +2,12 @@
 .flexible
 {
 	width: 33%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	/*this is a temporary way to centre as it has issues if the vertical height of browser is smaller than content*/
 }
 		
 @media only screen and (max-width: 1280px)
