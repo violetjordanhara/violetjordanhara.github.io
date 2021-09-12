@@ -1,4 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*
+{
+	font-family: 'PT Serif', serif;
+}
 .flexible
 {
 	width: 33%;
