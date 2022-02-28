@@ -1,4 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body{
+	font-family: Helvetica, sans-serif;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.name{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.other-info{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	gap: 100px;
+	margin-left: -40px;
+}
+
+hr{
+	color: black;
+	opacity: 100%;
+}
+
+.content{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+li{
+	margin-left: -35px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+a{
+	text-decoration: none;
+	box-shadow: none;
+	color:black;
+}
+
+a:visited{
+	color:black;
+	text-decoration: none;
+}
+
+a:hover{
+	color:red;
+}
+
+.projects,
+.years {
+	text-decoration-line: underline;
+}
+.content-name{
+	display: flex;
+	justify-content: space-between;
+	padding-left:50px;
+	padding-right: 50px;
+	box-sizing: border-box;
+	--margin-border: 3vw;
+	--margin-grid: 20px;
+
+   text-decoration-line: underline; 
+}
+
+ul{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+/*@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 *
 {
 	font-family: 'PT Serif', serif;
@@ -11,7 +89,7 @@
 	top: 50%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
-	/*this is a temporary way to centre as it has issues if the vertical height of browser is smaller than content*/
+	//this is a temporary way to centre as it has issues if the vertical height of browser is smaller than content
 }
 		
 @media only screen and (max-width: 1280px)
@@ -35,3 +113,4 @@
 	padding-bottom: 30px;
 	padding-top: 5 px;
 }
+*/
