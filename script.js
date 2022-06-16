@@ -1,4 +1,5 @@
 document.querySelector('body').addEventListener('click', run)
+
 document.querySelector('#writingLink').addEventListener('click', showWriting)
 document.querySelector('button').addEventListener('click', showMain)
 

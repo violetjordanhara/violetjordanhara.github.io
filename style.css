@@ -2,7 +2,9 @@
 	display: none;
 }
 
-
+#name{
+  height:80%;
+}
 *,
 *::before,
 *::after {
