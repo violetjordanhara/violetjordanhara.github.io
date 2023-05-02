@@ -3,20 +3,19 @@ canvas{
   top:0;
   left: 0;
 }
+
 body,
 html{
     overflow-x: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/*nav bar on the left, to make it animated, more interactive. tell user where they are in page */
 nav{
   color:  #cc99ff;
   z-index: 2;
   position: fixed;
-  padding: 3rem 8rem;
-  
-  display: flex;
-  justify-content: space-between;
+  padding: 1rem 1rem;
+  top:25%;
 }
 
 nav a{
@@ -35,7 +34,9 @@ nav a:hover{
 nav ul{
   list-style: none;
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+  
+  gap: 5rem;
 }
 nav li{
   cursor: pointer;
@@ -44,31 +45,47 @@ nav li{
 #first{
   width: 100%;
   height: 1000px;
+
 }
 #second{
   width: 100%;
   height: 1000px;
 }
-.title{
-  color: #cc99ff;
-  letter-spacing: 5px;
-  padding: 1rem;
-  z-index: 2;
-  position: absolute;
-  font-size: 3rem;
-  left: 50%;
-  top: 15%;
-  transform: translate(-50%, -25%);
+
+#third{
+  width: 100%;
+  height: 1000px;
 }
 
+.container{
+  position: relative;
+  top: 5%;
+  left: 35%;
+  
+  color: #cc99ff;
+  letter-spacing: 5px;
+}
+
+.title{
+  letter-spacing: 5px;
+  position: relative;
+  font-size: 3rem;
+}
+
+.titleabout{
+  position: relative;
+  letter-spacing: 5px;
+}
+/*
 #description{
   color: #cc99ff;
   position: absolute;
+  padding: 2rem;
   z-index: 2;
   left: 50%;
   top: 27%;
   transform: translate(-50%, -25%)
-}
+}*/
 
 #credit{
   color: #cc99ff;
@@ -77,3 +94,32 @@ nav li{
   left: 80%;
   font-size: xx-small;
 }
+
+.textcontainer{
+  background-color: rgba(255, 255, 204, 0.5);
+  width: 30%;
+}
+
+/* third container takes more space, has less space on the left*/
+
+.thirdcontainer{
+  position: relative;;
+  left: 20%;
+  color: #cc99ff;
+}
+
+#portfolio{
+ 
+}
+
+#contributions{
+ 
+}
+
+#splitcontainerforwork{
+  display: flex;
+  
+  gap: 30%;
+
+}
+
