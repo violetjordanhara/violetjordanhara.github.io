@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="cat.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/9953db0f81.js" crossorigin="anonymous"></script>
     <title>Violet</title>
   </head>
   <body>
@@ -11,36 +12,74 @@
     <nav>
       
       <ul>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Work</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li onclick="smoothScroll(document.getElementById('second'))">About</li>
+        <li onclick="smoothScroll(document.getElementById('third'))">Work</li>
+        <li onclick="smoothScroll(document.getElementById('fourth'))">Contact</li>
       </ul>
     </nav>
     <div id="first">
-      <di class="container">
-    <h1 class="title">Hello☁️</h1>
+      <div class="container">
+    <h1 class="title">Violet Jordan Hara☁️</h1>
     <p id="description">Developer + writer</p>
   </div>
     <p id="credit">Model by Nyilonelycompany</p>
-    
   </div>
 
   <div id="second">
     <div class="container">
     <h2 class="title">About</h2>
-    <div class="textcontainer"><p>Hello my name is hi bye hi bye lorem ipsum stuff why bye hi</p></div>
+    <div class="textcontainer"><p>Hello, I'm Violet. <br> I build modern, responsive websites. <br>I write content to help developers learn and create projects.</p></div>
     </div>
   </div>
   
   <div id="third">
-    <div class="thirdcontainer">
+    <div class="container">
       <h2 class="title">Work</h2>
       <div id="splitcontainerforwork">
-      <div id="contributions">Contributions</div>
-      <div id="portfolio">Portfolio</div>
+      <div id="contributions">
+        <h2>Contributions</h2>
+        <div class="textcontainer"><h3>Alchemy</h3>
+         <a href="https://www.alchemy.com/overviews/solidity-struct"> <img src="/alchemy_article1.png"></a>
+         <a href="https://www.alchemy.com/overviews/solidity-smart-contract"><img src="/alchemy_article2.png"></a>
+         <a href="https://www.alchemy.com/overviews/solidity-events"><img src="/alchemy_article3.png"></a>
+         <p>-Wrote SEO-optimised articles and tutorials about Solidity</p>
+          <p>-Increased organic site traffic by 400%</p>
+          <p>-Tools used: Google Analytics, Semrush</p>
+      </div>
+      <div id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="textcontainer"><h3>Bob's Burgers Query</h3>
+        <a href="https://github.com/violetjordanhara/bobsburgers"><img src="/bobsburgersquery.png"></a>
+        <p><a href="https://violetjordanhara.github.io/bobsburgers/">Live demo</a></p>
+        <p>-Query page that returns information about the Burger of the Day according to season and episode.</p>
+        <p>-Tools used: React, TypeScript, Bootstrap, API integration</p>
+      </div>  
+      <div class="textcontainer"><h3>Weather API</h3>
+        <a href="https://github.com/violetjordanhara/weather-api"><img src="/weatherapi.png"></a>
+        <p><a href="https://violetjordanhara.github.io/weather-api/">Live demo</a></p>
+        <p>-Website with API-integration to allow users to search a location for forecast data.</p>
+        <p>-Tools used: HTML, CSS, JavaScript, API integratiom</p>
+      </div>  
+      <div class="textcontainer"><h3>To-do list</h3>
+        <a href="https://github.com/violetjordanhara/todo"><img src="/todopreview.png"></a>
+        <p><a href="https://violetjordanhara.github.io/todo/">Live demo</a></p>
+        <p>-Web-based to-do app that uses local storage.</p>
+        <p>-Tools used: JavaScript, HTML, CSS</p>
+      </div>  
+      </div>
+      </div>
     </div>
     </div>
 
+  </div>
+
+  
+    <div id="fourth">
+    <div class="container">
+      <h2 class="title">Contact</h2>
+      <p>Email me at <a href="mailto:violetjordanhara@gmail.com">violetjordanhara@gmail.com</a></p>
+      <a href="https://github.com/violetjordanhara" class="fa-brands fa-github" style="font-size: 30px"></a>
+    </div>
   </div>
 
     <script type="module" src="/main.js"></script>

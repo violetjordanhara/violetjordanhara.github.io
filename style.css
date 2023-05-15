@@ -12,22 +12,22 @@ html{
 /*nav bar on the left, to make it animated, more interactive. tell user where they are in page */
 nav{
   color:  #cc99ff;
-  z-index: 2;
+  z-index: 1;
   position: fixed;
-  padding: 1rem 1rem;
   top:25%;
 }
 
-nav a{
+nav li{
   text-decoration: none;
   color:  #cc99ff;
   font-weight: bold;
   background-color: rgba(255, 255, 204, 0.5);
   padding: 15px;
   border-radius: 25px;
+  text-align: center;
 }
 
-nav a:hover{
+nav li:hover{
   background-color: rgba(255, 204, 255, 0.7)
 }
 
@@ -54,16 +54,20 @@ nav li{
 
 #third{
   width: 100%;
+  height: 2000px;
+}
+
+#fourth{
+  width: 100%;
   height: 1000px;
 }
 
 .container{
   position: relative;
   top: 5%;
-  left: 35%;
-  
+  left: 30%;
   color: #cc99ff;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 .title{
@@ -96,17 +100,11 @@ nav li{
 }
 
 .textcontainer{
-  background-color: rgba(255, 255, 204, 0.5);
-  width: 30%;
+  background-color: rgba(255, 255, 204, 0.85);
+  width: 60%;
+  padding: 0.5rem;
 }
 
-/* third container takes more space, has less space on the left*/
-
-.thirdcontainer{
-  position: relative;;
-  left: 20%;
-  color: #cc99ff;
-}
 
 #portfolio{
  
@@ -121,5 +119,9 @@ nav li{
   
   gap: 30%;
 
+}
+
+img{
+  width: 40%;
 }
 
